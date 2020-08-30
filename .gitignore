@@ -1,0 +1,11 @@
+tags
+.*
+!.gitignore
+*.out
+old/
+used/
+sandbox/
+
+check_keycode.cpp
+Makefile
+
