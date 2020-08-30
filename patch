@@ -1,11 +1,12 @@
 --- ScreenManager.c	2020-08-30 15:50:53.858964773 +0900
 +++ ScreenManager.c	2020-08-30 15:50:49.862227686 +0900
-@@ -203,6 +203,8 @@
+@@ -203,6 +203,9 @@
              case 'K': ch = 'k'; break;
              case 'J': ch = 'K'; break;
              case 'L': ch = 'l'; break;
-+            case  21: ch = KEY_PPAGE; break; //Ctrl+u
-+            case   4: ch = KEY_NPAGE; break; //Ctrl+d
++            case  21: ch = KEY_PPAGE; break; //Ctrl+u (Scroll Up)
++            case   4: ch = KEY_NPAGE; break; //Ctrl+d (Scroll Down)
++            case  11: ch = 'k';         break; //Ctrl+k (Send Signal)
           }
        }
  
