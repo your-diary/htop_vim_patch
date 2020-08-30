@@ -6,11 +6,12 @@ In `htop v3.0`, the `vim_mode` variable was added which toggles vim-like key map
 
 Our patch introduces the following key mappings.
 
-- <kbd>Ctrl</kbd>+<kbd>u</kbd>: Scroll Up
-
-- <kbd>Ctrl</kbd>+<kbd>d</kbd>: Scroll Down
-
-- <kbd>Ctrl</kbd>+<kbd>k</kbd>: Send Signal
+| Key | Effect |
+|:-|:-|
+| <kbd>Ctrl</kbd>+<kbd>u</kbd> | Scroll Up |
+| <kbd>Ctrl</kbd>+<kbd>d</kbd> | Scroll Down |
+| <kbd>Ctrl</kbd>+<kbd>k</kbd> | Send Signal |
+| <kbd>0</kbd>                 | Move to Start of Line |
 
 You can easily add or remove mappings by finding the keycodes (using for example [this code](https://stackoverflow.com/a/50443806/8776746)) and modifying the patch according to the result.
 
