@@ -6,7 +6,7 @@
              case 'L': ch = 'l'; break;
 +            case  21: ch = KEY_PPAGE; break; //Ctrl+u (Scroll Up)
 +            case   4: ch = KEY_NPAGE; break; //Ctrl+d (Scroll Down)
-+            case  11: ch = 'k';         break; //Ctrl+k (Send Signal)
++            case  11: ch = 'k';       break; //Ctrl+k (Send Signal)
           }
        }
  
